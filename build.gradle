@@ -11,7 +11,7 @@ plugins {
 
 group = 'com.evangilo.jpromise'
 version = '0.1.2'
-description = 'Implementation of Javascript Promises for the Java language.'
+description = 'A Promise library for Java'
 
 allprojects {
   repositories {
