@@ -36,9 +36,9 @@ bintray {
     licenses = ['MIT']
     vcsUrl = 'https://github.com/evangilo/jpromise.git'
     version {
-      vcsTag = version
-      name = version
-      desc = description
+      vcsTag = project.version
+      name = project.version
+      desc = project.description
       attributes = ['gradle-plugin': 'com.use.less:com.use.less.gradle:gradle-useless-plugin']
     }
   }
